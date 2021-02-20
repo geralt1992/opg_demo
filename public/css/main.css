@@ -1,0 +1,431 @@
+
+section{
+    color:white;
+}
+
+.banner-wraper{
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 68%;
+}
+
+#logo{
+    margin: 1.04vw;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 4.16vw;
+    display: inline-block;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 2.34375vw;
+    color: red;
+    text-decoration: overline;
+}
+
+#logo2{
+    margin-left: -1%;
+    height: 4.1vw;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 2.34375vw;
+    color: white;
+    text-decoration: underline;
+}
+
+.text_wrap{
+    margin-left: 3%; 
+    margin-top: 3%; 
+}
+
+#text_1 {
+    margin: 1.04vw;
+    margin-left: 8%; 
+    height: 4.1vw;
+    font-size: 3.125vw;
+    font-weight: bolder;
+    opacity: .6;
+}
+
+#text_2{
+    margin-left: 8%; 
+    height: 2.1vw;
+    font-size: 2.86vw;
+    font-weight: 600;
+    letter-spacing: 4px;
+
+}
+
+.banner-search form{
+    width: 60%;
+    margin-top: 1rem;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-search label{
+    font-size: 1.09375vw;
+    text-transform: uppercase;
+    font-weight:600;
+    letter-spacing: 5px;
+    margin-bottom: 1.2rem;
+}
+
+.banner-search input{
+    opacity: .6;
+}
+
+.banner-search .form-control{
+    padding: 2.0rem;
+    margin-bottom: 1.5rem;
+}
+
+.down-video{
+    text-align: center;
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+.down{
+    text-align: center;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+}
+
+#text_4 {
+    height: 4.16vw;
+    font-size: 2.6vw;
+    font-weight:bolder;
+    opacity: .6;
+    letter-spacing: 7px;
+}
+
+iframe{
+    border:none; 
+    width: 52.08vw; 
+    height: 31.25vw;
+}
+
+#text_5 {
+    margin-top: 7.81vw;
+    height: 4.1vw;
+    font-size: 4vw;
+    font-weight:bolder;
+    color: white;
+    opacity: .6;
+    letter-spacing: 7px;
+}
+
+#home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    height: 3.125vw;
+}
+
+#clock{
+    display:flex;
+    color: white;
+    font-size: 8vw;
+    font-family: "Courier-new" , Courier, monospace;
+    height: 20vh;
+    line-height: 20vh;
+    letter-spacing: 15px;
+    overflow: hidden;
+    position: relative; 
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    border-radius: 2%;
+}
+
+.move{
+    animation: move ease-in-out 1s infinite;
+}
+
+@keyframes move{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-20vh);
+    }
+}
+
+
+
+
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content{
+    position: absolute;
+    top: 45%;
+    left: 38.5%;
+    transform: translate(50% , 50%) ,scale(0);
+    background: #fff;
+    width: 450px;
+    height: 220px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+
+.popup .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.popup.active .overlay{
+    display: block;
+}
+
+.popup.active .content{
+    transition: all 500ms ease-in-out;
+    transform: translate(-50% , -50%), scale(1);
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1024px) {
+  
+        .popup .content{
+            position: absolute;
+            top: 45%;
+            left: 25%;
+            transform: translate(50% , 50%) ,scale(0);
+            background: #fff;
+            width: auto;
+            height: auto;
+            z-index: 2;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+    
+
+#logo{
+    margin: 1.04vw;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 12.16vw;
+    display: inline-block;
+    letter-spacing: 5px;
+    font-weight: bolder;
+    font-size: 6.34375vw;
+    color: red;
+    text-decoration: overline;
+}
+
+#logo2{
+    margin-left: -1%;
+    height: 12.1vw;
+    font-size: 6.34375vw;
+   
+}
+
+#text_1 {
+    margin: 8.04vw;
+    margin-left: 8%; 
+    height: 5.1vw;
+    font-size: 5.125vw;
+}
+
+#text_2{
+    margin-left: 8%; 
+    height: 3.5vw;
+    font-size: 4.86vw;
+    font-weight: 600;
+    letter-spacing: 4px;
+
+}
+
+.banner-search form{
+    width: 60%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-search label{
+    font-size: 2.09375vw;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 1.2rem;
+}
+
+.banner-search .form-control{
+    padding: 2.0rem;
+    margin-bottom: 1.5rem;
+}
+
+#text_4 {
+    height: 6.16vw;
+    font-size: 5.6vw;
+    margin-bottom: 8vw;
+}
+
+#text_5 {
+    height: 4.1vw;
+    font-size: 5.6vw;
+}
+
+iframe{
+    border:none; 
+    width:82.08vw; 
+    height:51.25vw;
+}
+
+#home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    height: 3.125vw;
+}
+
+#clock{
+    font-size: 8vw;
+    height: 20vh;
+    line-height: 20vh;
+    letter-spacing: 15px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:425px) {
+
+    .popup .content{
+        position: absolute;
+        top: 45%;
+        left: 15%;
+        transform: translate(50% , 50%) ,scale(0);
+        background: #fff;
+        width: auto;
+        height: auto;
+        z-index: 2;
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+  #logo{
+      font-size: 10.34375vw;
+  }
+  
+  #logo2{
+      height: 25.1vw;
+      font-size: 10.34375vw;
+     
+  }
+  
+  #text_1 {
+      margin: 8.04vw;
+      margin-left: 8%; 
+      height: 8.1vw;
+      font-size: 6.125vw;
+  }
+  
+  #text_2{
+      margin-left: 8%; 
+      height: 7.5vw;
+      font-size: 9.86vw;
+      font-weight: 600;
+      letter-spacing: 4px;
+  
+  }
+  
+  .banner-search label{
+      font-size: 3.09375vw;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+      margin-bottom: 1.2rem;
+  }
+  
+  #text_4 {
+      height: 9.16vw;
+      font-size: 9.6vw;
+      margin-bottom: 11vw;
+  }
+  
+  #text_5 {
+      height: 4.1vw;
+      font-size: 9.6vw;
+  }
+  
+  iframe{
+      border:none; 
+      width:92.08vw; 
+      height:61.25vw;
+  }
+  
+  
+  #time{
+      height: 13.125vw;
+  }
+  
+  }
